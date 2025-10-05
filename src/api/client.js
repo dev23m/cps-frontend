@@ -2,7 +2,7 @@ import axios from "axios";
 import { AUTH_STORAGE_KEY } from "../providers/AuthProvider.jsx";
 
 const API_BASE_URL = `${
-  import.meta.env.VITE_API_URL ?? "http://localhost:8000"
+  import.meta.env.VITE_API_URL ?? "https://cps-backend-l6em.onrender.com"
 }/v1/api`;
 
 const client = axios.create({
